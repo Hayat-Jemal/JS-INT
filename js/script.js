@@ -7,5 +7,9 @@ function Node(value,next,prev) {
 let node1 = new Node(100,"node2", null)
 console.log(node1)
 
+// 1. Test divisors of three
+//   You will be given 2 parameters: a low and high number. Your goal is to print all numbers (on the console) between low and high, and for each of these numbers print whether or not the number is divisible by 3. If the number is divisible by 3, print the word "div3" directly after the number.
+
+
 
 
