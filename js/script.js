@@ -25,3 +25,21 @@ console.log(divisor(10, 50));
 // // 2. The famous coding interview question (FizzBuzz)
 // //   Write a program that prints the numbers from 1 to 100. But for multiples of three print â€œFizzâ€ instead of the number and for the multiples of five print â€œBuzzâ€. For numbers which are multiples of both three and five print "FizzBuzz"
 
+function fizz(x, y) {
+  e = []
+  for (let i = x; i < y; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      e.push(i + "fizzbuzz")
+    }else
+    if (i % 3 === 0) {
+      e.push(i + "fizz")
+    } else
+      if (i % 5 === 0) {
+        e.push(i  + "buzz")
+      } else e.push(i)
+
+  }
+  return e
+  }
+
+console.log(fizz(1,100))
