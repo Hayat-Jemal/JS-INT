@@ -72,3 +72,22 @@ for (i = 1; i <= 100; i++) {
  // 3. Lucky sevens 
 // //   Write a function called lucky_sevens which takes an array of integers and returns true if any three consecutive elements sum to 7.
 
+function lucky(x) {
+    let flag = false;
+    for (i = 0; i < x.length-2; i++){
+        if (x[i] + x[i + 1] + x[i + 2] === 7) {
+             return true;
+        }
+    }
+  return false;
+   if (x.length<3)return "Please enter more numbers!"
+  for (let i = 2; i < x.length; i++) {
+    if (x[i] + x[i - 1] + x[i - 2] == 7) {
+      return true;
+    }
+  }
+  return false;
+}
+ console.log(lucky([3, 3, 4, 1, 2, 7, 0])); 
+console.log(lucky([3, 3, 4, 1, 6]));
+console.log(lucky([4, 3]));
