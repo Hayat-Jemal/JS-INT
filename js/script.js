@@ -69,7 +69,7 @@ for (i = 1; i <= 100; i++) {
     
 }
 
- // 3. Lucky sevens 
+ // 3. Lucky sevens
 // //   Write a function called lucky_sevens which takes an array of integers and returns true if any three consecutive elements sum to 7.
 
 function lucky(x) {
@@ -91,3 +91,6 @@ function lucky(x) {
  console.log(lucky([3, 3, 4, 1, 2, 7, 0])); 
 console.log(lucky([3, 3, 4, 1, 6]));
 console.log(lucky([4, 3]));
+
+// 4. Sum of several arrays
+//  You will be given an array of several arrays that each contain integers and your goal is to write a function that will sum up all the numbers in all the arrays. For example, if the input is [[3, 2], [1], [4, 12]] then your program should output 22 because3 + 2 + 1 + 4 + 12 = 22.
