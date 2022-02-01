@@ -80,6 +80,7 @@ function lucky(x) {
         }
     }
   return false;
+  //method 2
    if (x.length<3)return "Please enter more numbers!"
   for (let i = 2; i < x.length; i++) {
     if (x[i] + x[i - 1] + x[i - 2] == 7) {
@@ -94,3 +95,16 @@ console.log(lucky([4, 3]));
 
 // 4. Sum of several arrays
 //  You will be given an array of several arrays that each contain integers and your goal is to write a function that will sum up all the numbers in all the arrays. For example, if the input is [[3, 2], [1], [4, 12]] then your program should output 22 because3 + 2 + 1 + 4 + 12 = 22.
+function sum(ar) {
+    let sum=0
+    for (i = 0; i < ar.length; i++){
+        for (j = 0; j < ar[i].length; j++){
+            sum = sum + ar[i][j];
+        }
+    }
+    return sum
+}
+ let flat1 = [[3, 2], [1], [4, 12], 25];
+   let sumfalt = flat1.flat(sum);
+   console.log(sumflat);
+ console.log(sum([[3, 2], [1], [4, 12]]));
