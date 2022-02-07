@@ -106,5 +106,13 @@ function sum(ar) {
 }
  let flat1 = [[3, 2], [1], [4, 12], 25];
    let sumfalt = flat1.flat(sum);
-   console.log(sumflat);
- console.log(sum([[3, 2], [1], [4, 12]]));
+  //  console.log(sumflat);
+console.log(sum([[3, 2], [1], [4, 12]]));
+ 
+const val = [10, 20, 30, 40];
+val.push(val.shift());
+console.log(val);
+
+// 5. Evens number 
+// An Evens number is an integer whose digits are all even. For example 2426 is an Evens number but 3224 is not.
+  
