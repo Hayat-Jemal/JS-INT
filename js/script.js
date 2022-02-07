@@ -116,15 +116,27 @@ console.log(val);
 // 5. Evens number
 // An Evens number is an integer whose digits are all even. For example 2426 is an Evens number but 3224 is not.
   //  Write a function named isEvens that returns 1 if its integer argument is an Evens number otherwise it returns 0.
-   function isEven(n) {
-    let flag = 1;
-    let str = n.toString()
-    for (i = 0; i < str.length; i++){
-        if (str[i] % 2!= 0) {
-        flag = 0;   
-        }
-    }
-    return flag;
+//    function isEven(n) {
+//     let flag = 1;
+//     let str = n.toString()
+//     for (i = 0; i < str.length; i++){
+//         if (str[i] % 2!= 0) {
+//         flag = 0;   
+//         }
+//     }
+//     return flag;
+// }
+// console.log(isEven(2426));
+// console.log(isEven(3224));
+
+ // another method
+function isEven(n) {
+  let str = n.toString();
+  for (i = 0; i < str.length; i++) {
+    if (str[i] % 2 == 0) {
+      return "even";
+    } else return  "not even";
+  }
 }
 console.log(isEven(2426));
-// console.log(isEven(3224));
+console.log(isEven(3224));
