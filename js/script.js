@@ -192,3 +192,24 @@ function waveArray(t) {
 console.log(waveArray([2,6,3,4,6]));
 console.log(waveArray([4, 11, 12, 1, 6]));
 console.log(waveArray([7, 2, 9, 10, 5]));
+
+// // other wave
+// function wave(w) {
+//   for (i = 0; (i < w.length); i++) {
+//     if (
+//         w[i] % 2 == 0) {
+//         console.log("even")
+//     //   w[i] % 2 == 1 == w[i + 1] % 2 == 1) {
+//     //   return 0;
+//     }else console.log("odd")
+//     // return 1;
+//       if (w[i] % 2 == 1) {
+//         console.log("odd");
+//         //   w[i] % 2 == 1 == w[i + 1] % 2 == 1) {
+//         //   return 0;
+//       } else console.log("even");
+//   }
+// }
+// wave([2, 6, 3, 4, 6]);
+// // console.log(wave([4, 11, 12, 1, 6]));
+// // // console.log(wave([7, 2, 9, 10, 5]));
