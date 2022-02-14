@@ -213,3 +213,6 @@ console.log(waveArray([7, 2, 9, 10, 5]));
 // wave([2, 6, 3, 4, 6]);
 // // console.log(wave([4, 11, 12, 1, 6]));
 // // // console.log(wave([7, 2, 9, 10, 5]));
+
+ // 8. Meera array
+//  A Meera array is defined to be an array such that for all values n in the array, the value 2*n is not in the array. So {3, 5, -2} is a Meera array because 3*2, 5*2 and -2*2 are not in the array. But {8, 3, 4} is not a Meera array because for n=4, 2*n=8 is in the array. Write a function named isMeera that returns 1 if its array argument is a Meera array. Otherwise it returns 0.
