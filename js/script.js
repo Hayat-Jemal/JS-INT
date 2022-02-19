@@ -233,3 +233,25 @@ console.log(isMerra([3, 5, -2]));1
 
 // 9. Dual array
 // // //   Define a Dual array to be an array where every value occurs exactly twice. For example, {1, 2, 1, 3, 3, 2} is a dual array.The following arrays are not Dual arrays {2, 5, 2, 5, 5} (5 occurs three times instead of two times) {3, 1, 1, 2, 2} (3 occurs once instead of two times) Write a function named isDual that returns 1 if its array argument is a Dual array. Otherwise it returns 0.
+// function dualArray(x) {
+//     let count = 0;
+//     for (i = 0; i < x.length; i++) {
+//         for (j = 0; j < x.length; j++) {
+//             if (x[i] == x[j]) {
+//                 count++
+//                 // console.log("loops");
+//             }
+//         }
+//     }
+//     if (count == x.length * 2) {
+//         return 1;
+//     } else return 0;
+//     // console.log(count);
+//     // console.log(x.length);
+//     // if (count== x.length*2) {
+//     //     console.log("dual");
+//     // } else console.log("not dual");
+// }
+// console.log(dualArray([1, 2, 1, 3, 3, 2]));
+// console.log(dualArray([2, 5, 6, 1, 3, 8]));
+// console.log(dualArray([1, 2, 3, 1, 2, 1, 3, 3, 2]));
