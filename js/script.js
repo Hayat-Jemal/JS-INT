@@ -255,3 +255,18 @@ console.log(isMerra([3, 5, -2]));1
 // console.log(dualArray([1, 2, 1, 3, 3, 2]));
 // console.log(dualArray([2, 5, 6, 1, 3, 8]));
 // console.log(dualArray([1, 2, 3, 1, 2, 1, 3, 3, 2]));
+
+// // another method
+// // function dual(a) {
+    
+// //   for (let i = 0; i < a.length; i++) {
+// //       if (a.indexOf(a[i]) !== a.lastIndexOf(a[i])) {
+          
+// //         return 1;
+// //     }
+// //   }
+// //   return 0;
+// // }
+// // console.log(dual([1, 2, 1, 3, 3, 2]));
+// // console.log(dual([2, 5, 6, 1, 3, 8]));
+// // console.log(dual([1, 1, 2, 2, 3, 3, 3]));
