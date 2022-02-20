@@ -273,3 +273,20 @@ console.log(isMerra([3, 5, -2]));1
 
 // // // 10. Sort Method 
 // // // // //   Write a function that takes an array of numbers and returns another array by sorting the numbers in an acceding order. (In short, write a function that does the same thing the sort() method does)
+// function sorting(arr) {
+// var temp;
+//     for (i = 1; i < arr.length; i++) {
+//         for (j = 0; j < arr.length; j++) {
+//             if (arr[i] < arr[j]) {
+//                 temp = arr[i];
+//                 arr[i] = arr[j];
+//                 arr[j] = temp;
+//                 // console.log("loop " + i + " = " + arr[i] + "=" + arr[j]);
+//                 // console.log(arr[i]);
+//             }
+//         }
+//     }
+//     return arr;
+// }
+// console.log(sorting([8, 5, 1, 2]));
+//  console.log(sorting([1, 7, 2, 8, 3, 4, 5, 0, 9, 6, -1]));
