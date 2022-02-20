@@ -271,7 +271,7 @@ console.log(isMerra([3, 5, -2]));1
 // // console.log(dual([2, 5, 6, 1, 3, 8]));
 // // console.log(dual([1, 1, 2, 2, 3, 3, 3]));
 
-// // // 10. Sort Method 
+// // // 10. Sort Method
 // // // // //   Write a function that takes an array of numbers and returns another array by sorting the numbers in an acceding order. (In short, write a function that does the same thing the sort() method does)
 // function sorting(arr) {
 // var temp;
@@ -290,3 +290,18 @@ console.log(isMerra([3, 5, -2]));1
 // }
 // console.log(sorting([8, 5, 1, 2]));
 //  console.log(sorting([1, 7, 2, 8, 3, 4, 5, 0, 9, 6, -1]));
+// another method
+// ******************************************
+// function sorting(arr) {
+//     var temp;
+//   for (i = 0; i < arr.length; i++) {
+//     if (arr[i] > arr[i + 1]) {
+//       temp = arr[i];
+//       arr[i] = arr[i + 1];
+//         arr[i + 1] = temp;
+//         i = -1;
+//     }
+//   }
+//   return arr;
+// }
+// console.log(sorting([5, 8, 1, 2, 1, 3, 3, 2, 4, 4, 100]));
