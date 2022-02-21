@@ -326,3 +326,11 @@ console.log(isMerra([3, 5, -2]));1
 // //     counter++;
 // // }
 // // console.log(integer);
+// ********************************************
+let numbers = [1, 7, 2, 8, 3, 11, 5, 0, 9, 6, -1];
+numbers.sort(function (a, b) { return a - b })
+console.log(numbers);
+// var fruit=["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruit);
+// fruit.sort();
+//  console.log(fruit);
