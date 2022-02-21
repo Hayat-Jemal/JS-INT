@@ -305,3 +305,24 @@ console.log(isMerra([3, 5, -2]));1
 //   return arr;
 // }
 // console.log(sorting([5, 8, 1, 2, 1, 3, 3, 2, 4, 4, 100]));
+
+ var neg = [];
+//     let = j = 0;
+//     for (i = -10; i <= -1; i++) {
+//         neg[j] = i; j++;
+//     }
+//     console.log(neg);
+//  let pos = [];
+//     let p = 0;
+// //     for (i = 0; i <= 10; i++){
+// //         pos[p] = i; p++;
+// // }
+// // console.log(pos);
+// // integer = neg;
+// // // console.log(integer);
+// // counter = neg.length;
+// // for (let h = 0; h < pos.length; h++){
+// //     integer[counter] = pos[h];      
+// //     counter++;
+// // }
+// // console.log(integer);
