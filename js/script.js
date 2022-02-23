@@ -359,3 +359,18 @@ for (i = -10; i <= -1; i++){
   n++
 }
 // console.log(neg);
+// *******************************************
+// let pos = [];
+// let p = 0;
+// for (i = 0; i <= 10; i++) {
+//   pos[p] = i;
+//   p++;
+// }
+// // console.log(pos);
+// function intiger(neg, pos) {
+//   let newArr = [];
+//   newArr = [...neg, ...pos];
+//   return newArr 
+// }
+// console.log(intiger(neg, pos));
+// //***********************
