@@ -335,3 +335,12 @@ console.log(numbers);
 // fruit.sort();
 //  console.log(fruit);
 // //*****************************************
+// function negativeNumber(n) {
+//   let rn = [];
+//   for (i = -10; i <= rn; i++) {
+//     rn.push(i);
+//   }
+//   return rn;
+// }
+ // console.log(negativeNumber(-1));
+ 
