@@ -343,4 +343,19 @@ console.log(numbers);
 //   return rn;
 // }
  // console.log(negativeNumber(-1));
- 
+ // ******************************************
+function positiveNumber(p) {
+  let r = [];
+  for (i = 0; i <= p; i++) {
+    r.push(i);
+  }
+  return r;
+}
+// console.log(positiveNumber(10));
+let neg = [];
+let n = 0;
+for (i = -10; i <= -1; i++){
+  neg[n] = i;
+  n++
+}
+// console.log(neg);
