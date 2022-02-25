@@ -374,3 +374,17 @@ for (i = -10; i <= -1; i++){
 // }
 // console.log(intiger(neg, pos));
 // //***********************
+
+ // const arrays = [
+// //   [-10, -1],
+// //   [0, 10],
+// // ];
+// function range(a, b) {
+//   var arr = [];
+//   for (let i = a; i < b; i++) arr.push(i);
+//   return arr;
+// }
+// const result = arrays.reduce(function (a, b) {
+//     return a.concat(range(b[0], b[1] + 1));
+// }, []);
+// console.log(result)
