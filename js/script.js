@@ -370,7 +370,7 @@ for (i = -10; i <= -1; i++){
 // function intiger(neg, pos) {
 //   let newArr = [];
 //   newArr = [...neg, ...pos];
-//   return newArr 
+//   return newArr
 // }
 // console.log(intiger(neg, pos));
 // //***********************
@@ -388,5 +388,26 @@ for (i = -10; i <= -1; i++){
 //     return a.concat(range(b[0], b[1] + 1));
 // }, []);
 // console.log(result)
+// ***************************
+ // *concat*
+let h = [3, 5, 8];
+let z = [6, "lo", "yt", 90, true, 8];
+let w = z.concat(h);
+console.log(w)
 
+// ********************************************
+// function sortDrinkByPrice(drinks){
+// 	  const sorted =drinks.sort(function(x, y){
+//    return x.price - y.price;
+//   });
+   
+// 	 return sorted;
+// }
+// console.log(
+//   sortDrinkByPrice([
+//     { name: "lemonade", price: 50 },
+//     { name: "lime", price: 10 },
+//     { name: "avocado",price: 40},
+//   ])
+//  );
 
