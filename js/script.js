@@ -423,4 +423,26 @@ console.log(w)
 // console.log(largestSwap(14));
 // // largestSwap(14) ➞ false
 // console.log(largestSwap(54));
+// *******************************************
+// // // calculator
+// // function add(a, b) {
+// //   return a + b;
+// // }
+// // function subtract(a, b) {
+// //   return a - b;
+// // }
+// // function multiply(a, b) {
+// //   return a * b;
+// // }
+// // function divide(a, b) {
+// //   return a / b;
+// // }
+// // function calculate(value1,value2,whatToDo) {
+// //   return whatToDo(value1, value2);
+// // }
+// // console.log(calculate(2, 3,add));
+// // console.log(calculate(34, 3, subtract));
+// // console.log(calculate(6, 3, multiply));
+// // console.log(calculate(30, 0, divide));
+// ********************************************
 
