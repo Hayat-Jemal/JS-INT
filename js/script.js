@@ -445,4 +445,23 @@ console.log(w)
 // // console.log(calculate(6, 3, multiply));
 // // console.log(calculate(30, 0, divide));
 // ********************************************
+ //  write a function that takes two strings s1 and s2 and return the longest commen subsequence of sl and s2
+// // "ABAZDC", "BACBAD" => ABAD
+// // "AGGTAB", "GXTXAYB" => GTAB
+// // "aaaa", "aa" => "aa"
+// // "", "..." => ""
+// // "ABBA", "ABCABA" => "ABBA"
+// ********************************************
+// // This code is contributed
+// //  Write a program that creates a string that represents an 8×8 grid, using newline characters to separate lines. At each position of the grid there is either a space or a “#” character. The characters should form a chessboard. */
+
+// var pattern = "";
+// for (i = 0; i < 8; i++){
+//   for (j = 0; j < 8; j++){
+//     if ((i + j) % 2==0)pattern = pattern + " ";
+//     else  pattern = pattern + "#";
+//   }
+//   pattern=pattern+"\n"
+// }
+// console.log(pattern);
 
