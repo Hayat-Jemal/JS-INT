@@ -465,3 +465,17 @@ console.log(w)
 // }
 // console.log(pattern);
 
+// *******************************************
+// // Given an integer number n, return the difference between the product of its digits and the sum of its digits
+function difference(num) {
+  let p = num.toString()
+  let sum = 0;
+  let product = 1;
+  for (i = 0; i < p.length; i++){
+    sum = sum + parseInt(p[i]);
+    product = product * parseInt(p[i]);
+  }
+  return product - sum;
+}
+// console.log(difference(1234));
+
