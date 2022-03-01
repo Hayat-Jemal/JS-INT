@@ -479,3 +479,14 @@ function difference(num) {
 }
 // console.log(difference(1234));
 
+// // /method #2
+var x = 1234;
+var sum2 = 0;
+var product2 = 1;
+while (x != 0) {
+  sum2 = sum2 + (x % 10);
+  product2 = product2 * (x % 10);
+  x = Math.floor(x / 10);
+}
+console.log(product2-sum2);
+
