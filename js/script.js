@@ -489,4 +489,13 @@ while (x != 0) {
   x = Math.floor(x / 10);
 }
 console.log(product2-sum2);
+// ********************************************
+// **filter**
+function checkIfLessThan100(a) {
+  return a < 100;
+}
+let someArray = [1, 2, 3, 5, 66, 77, 600, 888, 1000];
+let filteredArray = someArray.filter(checkIfLessThan100);
+// console.log(filteredArray);
+// ********************************************
 
