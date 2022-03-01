@@ -498,4 +498,15 @@ let someArray = [1, 2, 3, 5, 66, 77, 600, 888, 1000];
 let filteredArray = someArray.filter(checkIfLessThan100);
 // console.log(filteredArray);
 // ********************************************
+// ********************************************
+// Number of Squares in an N * N Grid
+// Create a function that calculates the number of different squares in an n * n square grid. Check the Resources tab.
+function numberSquares(n) {
+  var ans = 0;
+  for (var i = 1; i <= n; i++) {
+    ans += (i ** 2);
+  }
+  return ans;
+}
+// console.log(numberSquares(4)); //30
 
