@@ -509,4 +509,15 @@ function numberSquares(n) {
   return ans;
 }
 // console.log(numberSquares(4)); //30
+// *****************************************
+// Find the Amount of Potatoes
+// Create a function to return the amount of potatoes there are in a string.
+// **method 1**
+function potatoes(str) {
+  var arr = str.split("potato");
+  return arr.length-1 ;
+}
+// console.log(potatoes("potato")); //1
+// console.log(potatoes("potatoapple"));
+// console.log(potatoes("potatopotato"));
 
