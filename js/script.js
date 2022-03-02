@@ -520,4 +520,12 @@ function potatoes(str) {
 // console.log(potatoes("potato")); //1
 // console.log(potatoes("potatoapple"));
 // console.log(potatoes("potatopotato"));
+// **method 2**
+function potatoes(str) {
+  return str.match(/potato/g).length;
+// the term length is tell us the number of repeated words
+}
+// console.log(potatoes("potatoapple"));
+// potatoes("potatoapple") ➞ 1
+// **************************************
 
