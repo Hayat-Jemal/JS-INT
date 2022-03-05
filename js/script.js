@@ -535,7 +535,7 @@ function potatoes(str) {
 //   return [arr1[0],...arr2,arr1[1]]
 // }
 // console.log(tuckIn([1, 10], [2, 3, 4, 5, 6, 7, 8, 9]));
-/ // **method 2**
+ // **method 2**
 function tuckIn(arr1, arr2) {
   arr2.push(arr1[1]);
   arr2.unshift(arr1[0]);
@@ -543,4 +543,11 @@ function tuckIn(arr1, arr2) {
 }
 // console.log(tuckIn([15, 150], [45, 75, 35]));
 // ******************************************
+var arr1 = [15, 150];
+var arr2 = [45, 75, 35];
+var result = [...arr1, ...arr2];
+var a = result.sort(function (a, b) {
+  return a - b;
+})
+// console.log(a)
 
