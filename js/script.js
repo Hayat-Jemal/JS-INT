@@ -574,4 +574,25 @@ var a = result.sort(function (a, b) {
 //         console.log(i+" not leap year")        
 //     }
 // ********************************************
+// Add up the Numbers from a Single Number
+// Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function. For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
+// **answer** 
+// -define a fun that takes a number(x)
+// - check if x is a number if not return error message
+// - define for loop
+//   - initial 1 - limit x - update++
+// -declare avariable to store the sum    
+// - add every value of i and save the sum
+// -return result
+function addUp(x) {
+  if (isNaN(x)) {
+  return "please enter a number value"
+}
+  let sum = 0
+  for (i = 1; i <= x; i++){
+    sum += i;
+  }return sum
+}
+// console.log(addUp(4));//10
+// console.log(addUp(600));//180300
 
