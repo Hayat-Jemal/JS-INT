@@ -566,4 +566,12 @@ var a = result.sort(function (a, b) {
 //         return "not leap year";
 // }
 // console.log(leapYear(2486));
+// // **method 2**
+// for(i = 2000; i <= 2500; i+=4){
+//         if((i % 4 == 0)&&(i % 100 != 0 || i % 400 == 0))        
+//         console.log(i+" leap year")
+//         else
+//         console.log(i+" not leap year")        
+//     }
+// ********************************************
 
