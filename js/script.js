@@ -595,4 +595,14 @@ function addUp(x) {
 }
 // console.log(addUp(4));//10
 // console.log(addUp(600));//180300
+// **method 2**
+function addUp2(a) {
+  return a*(a+1)/2
+}
+// console.log(addUp2(600));
+// 1 + 2 + 3 + 4 + 5 + 6.......+a=S
+// a + (a - 1) + (a - 2) + (a - 3) +......+1=S;
+//   (1 + a) + (1 + a) + (1 + a) +....(1 + a) = 2S = a * (1 + a)
+// S = a * (1 + a) / 2;
+// ********************************************
 
