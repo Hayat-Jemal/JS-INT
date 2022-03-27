@@ -652,4 +652,10 @@ function minMax(arr) {
  var arr1 = [2, 3, 4, 5];
 var arr2 = [20, 1, 87, 0, ...arr1];
 console.log(arr2)
+/*******************************************/
+let d = [7, 4, 6, 4, 0, -1];
+r = [];
+r.push(Math.min(...d));
+r.push(Math.max(...d));
+// console.log(r);
 
