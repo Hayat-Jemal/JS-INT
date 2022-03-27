@@ -626,4 +626,27 @@ function powerOfTwo(x, y) {
   }
 // console.log(powerOfTwo(5, -2)); //20
 // console.log(powerOfTwo(10,3)); //80
+// ********************************************
+// // Find the Smallest and Biggest Numbers
+// // Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.
+// **answer**
+// -define afun that takes an Array
+// -check if with in an array are numbers
+// -declare an array to store the maximum and minimum number
+// -we use push method to add the minimum and maximum number to declared empty array
+// -use Math.min & Math.max object to find out the min & max numbers in the array
+// -we use spread(...) object method to carry only the number we want to the array
+// -return the result
+function minMax(arr) {
+  if (typeof arr === null) {
+    return "please enter a number value"
+  }
+  var result = [];
+  result.push(Math.min(...arr));
+  result.push(Math.max(...arr));
+  return result;
+}
+//  console.log(minMax([3,67,14,102,5,-3,-6,34]));
+// console.log(minMax([1, 2, 3, 4, 5]));
+// console.log(minMax([]));
 
