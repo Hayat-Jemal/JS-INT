@@ -605,4 +605,25 @@ function addUp2(a) {
 //   (1 + a) + (1 + a) + (1 + a) +....(1 + a) = 2S = a * (1 + a)
 // S = a * (1 + a) / 2;
 // ********************************************
+// -Left Shift by Powers of Two
+// The left shift operation is similar to multiplication by powers of two.
+// Sample calculation using the left shift operator (<<):
+// 10 << 3 = 10 * 2^3 = 10 * 8 = 80
+// Write a function that mimics(without the use of <<) the left shift operator and returns the result from the two given integers.
+// **answer**
+// -define a fun that takes 2 arguments
+//   - check all of the arguments are numbers
+//   - mulitiply the first argument x by 2 exponential y
+//  -return result
+function powerOfTwo(x, y) {
+   if (typeof x !== "number" || typeof y !== "number") {
+     return "please enter a number value";
+   } else if (y < 0){
+     return "please provide only positive numbers"
+   }
+  let result=x * (2 ** y);
+  return result
+  }
+// console.log(powerOfTwo(5, -2)); //20
+// console.log(powerOfTwo(10,3)); //80
 
