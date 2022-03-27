@@ -649,4 +649,7 @@ function minMax(arr) {
 //  console.log(minMax([3,67,14,102,5,-3,-6,34]));
 // console.log(minMax([1, 2, 3, 4, 5]));
 // console.log(minMax([]));
+ var arr1 = [2, 3, 4, 5];
+var arr2 = [20, 1, 87, 0, ...arr1];
+console.log(arr2)
 
