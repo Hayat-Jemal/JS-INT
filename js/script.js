@@ -659,3 +659,13 @@ r.push(Math.min(...d));
 r.push(Math.max(...d));
 // console.log(r);
 
+// *******************************************
+// **method 2**
+let nums = [3, 2, 4, 5,10, 1, 45, 3, 8];
+var sorted = nums.sort(function (a, b) {
+  return a - b
+})
+let s = sorted[0];
+l = sorted[sorted.length-1];
+// console.log(s, l)
+
