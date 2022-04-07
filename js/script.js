@@ -669,3 +669,27 @@ let s = sorted[0];
 l = sorted[sorted.length-1];
 // console.log(s, l)
 
+// ********************************************
+// Check if One Array can be Nested in Another
+// Create a function that returns true if the first array can be nested inside the second.
+
+// arr1 can be nested inside arr2 if:
+
+// arr1's min is greater than arr2's min.
+// arr1's max is less than arr2's max.
+// Examples
+function isNested(arr1, arr2) {
+  if (
+    Math.min(...arr1) > Math.min(...arr2) &&
+    Math.max(...arr1) < Math.max(...arr2)
+  ) {
+    return true;
+  } else return false;
+}
+// canNest([1, 2, 3, 4], [0, 6]) ➞ true
+// console.log(isNested([1, 2, 3, 4],[0, 6]));
+// console.log(isNested([3, 1], [4, 0]));//true
+// console.log(isNested([9, 9, 8], [8, 9]));//false
+// // canNest([1, 2, 3, 4], [2, 3]) ➞ false
+// console.log(isNested([1, 2, 3, 4], [2, 3]));
+
