@@ -704,4 +704,8 @@ var kebde = abebe.split("")
 // console.log(kebde) //H,o,w, ,a,r,e, ,y,o,u, ,d,o,i,n,g
 var a=kebde[2]
 // console.log(a); //w
+// ********************************************
+var abebe = "How are you doing?";
+var kebde = abebe.charAt(2);
+// console.log(kebde); //w
 
