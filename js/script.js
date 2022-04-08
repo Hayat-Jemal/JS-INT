@@ -693,3 +693,15 @@ function isNested(arr1, arr2) {
 // // canNest([1, 2, 3, 4], [2, 3]) ➞ false
 // console.log(isNested([1, 2, 3, 4], [2, 3]));
 
+var abebe = "How are you doing?";
+var kebde = abebe.split(" ")
+// console.log(kebde) //"How","are", "you","doing?";
+var a = kebde[2] //you
+// console.log(a); 
+// *******************************************
+var abebe = "How are you doing?";
+var kebde = abebe.split("")
+// console.log(kebde) //H,o,w, ,a,r,e, ,y,o,u, ,d,o,i,n,g
+var a=kebde[2]
+// console.log(a); //w
+
