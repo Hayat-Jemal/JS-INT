@@ -741,3 +741,11 @@ console.log(changeToBinary(4));//101=1*1 + 1*4 = 5
 console.log(changeToBinary(10));//1010= 1*2 + 1*8 = 10
 // 1*2 + 1*8 = 10
 
+// *******************************************
+// No Conditionals ?
+// Write a function that returns 0 if the input is 1, and returns 1 if the input is 0.
+function flip(y) {
+    return y == 0 ? 1 : y == 1 ? 0 : "is not binary";
+}
+console.log(flip(0));
+
