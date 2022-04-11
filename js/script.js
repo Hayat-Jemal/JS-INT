@@ -748,4 +748,22 @@ function flip(y) {
     return y == 0 ? 1 : y == 1 ? 0 : "is not binary";
 }
 console.log(flip(0));
+// ********************************************
+// Is it True ?
+// -In this challenge you will be given a relation between two numbers, written as a string. Write a function that determines if the relation is true or false.
+// function isTrue(relation) {
+//   return eval(relation.replace("=", "=="));
+// }
+// console.log(isTrue("2=2"));
+// console.log(isTrue("8<7"));
+// // **2**
+// function isTrue(relation) {
+//   let a = relation.replace("=", "==");
+//  return eval(a) == true ? true : false;
+// }
+// console.log(isTrue("2=2"));
+// console.log(isTrue("8<7"));
+// *******************************************
+// console.log("2+2");
+// console.log(eval("2+2"));
 
