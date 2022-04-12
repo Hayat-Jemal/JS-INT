@@ -766,4 +766,40 @@ console.log(flip(0));
 // *******************************************
 // console.log("2+2");
 // console.log(eval("2+2"));
+// *******************************************
+// Bitwise Operations
+// A decimal number can be represented as a sequence of bits.To illustrate:
+// 6 = 00000110
+// 23 = 00010111
+// From the bitwise representation of numbers, we can calculate the bitwise AND, bitwise OR and bitwise XOR. Using the example above:
+// bitwiseAND(6, 23) ➞ 00000110
+// bitwiseOR(6, 23) ➞ 00010111
+// bitwiseXOR(6, 23) ➞ 00010001
+// Write three functions to calculate the bitwise AND, bitwise OR and bitwise XOR of two numbers.
+function changeToBinary(decimal) {
+  let binary = " ";
+  while (decimal > 0) {
+    binary = decimal % 2 + binary;
+    decimal = Math.floor(decimal / 2);
+  }
+  return binary;
+}
+function AND(x, y) {
+  let result = changeToBinary(x, y)
+  result = x & y;
+  return result;
+}
+console.log(AND(7, 12));//4
+function OR(x, y) {
+  let result = changeToBinary(x, y);
+  result = x | y;
+  return result;
+  }
+console.log(OR(7, 12));//15
+function XOR(x, y) {
+  let result = changeToBinary(x, y);
+  result = x ^ y;
+  return result;
+}
+console.log(XOR(7, 12));//11
 
