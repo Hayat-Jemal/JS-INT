@@ -803,3 +803,23 @@ function XOR(x, y) {
 }
 console.log(XOR(7, 12));//11
 
+// Happy Birthday! 🍩
+// Mubashir is getting old but he wants to celebrate his 20th or 21st birthday only. It is possible with some basic maths skills. He just needs to select the correct number base with your help!
+// For example, if his current age is 22, that's exactly 20 - in base 11. Similarly, 65 is exactly 21 - in base 32 and so on.
+// Create a function that takes his current age and returns the given age 20 (or 21) years, with number base in the format specified in the below examples.
+function birthDay(age) {
+  return `Mubashir is just ${20 + age % 2}, in base ${Math.floor(age / 2)}!`
+}
+console.log(birthDay(83))
+
+function birthDayy(age) {
+  return "Mubashir is just "+ (20 + (age % 2)) + " in base " + Math.floor(age / 2);
+}
+console.log(birthDayy(83));
+
+
+
+
+
+
+
