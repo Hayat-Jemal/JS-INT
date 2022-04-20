@@ -837,7 +837,24 @@ console.log(birthDayy(83));
 // check if the provided x is anumber
 // multiply x by 60 then return the value
 // step 5 translate to JS
-
+function minToSec(x) {
+  if (isNaN(x)) {
+    return "please enter anumber value";
+  } else {
+    if (x <= 0) {
+      return "please enter apositive number";
+    }
+  }
+  return x * 60;
+}
+let resultMin = minToSec(5);
+console.log(resultMin);
+//  minuteToSecondConverter(3) âžž 180
+let resultMin2 = minToSec(3);
+console.log(resultMin2);
+//  minuteToSecondConverter(2) âžž 120
+let resultMin3 = minToSec(2);
+console.log(resultMin3);
 
 
 
