@@ -817,6 +817,26 @@ function birthDayy(age) {
 }
 console.log(birthDayy(83));
 
+// exercise
+// Understand the problem
+// Solve it on your own
+// Convert to a general solution
+// Write the pseudo code
+// Translate to JavaScript
+// Test
+// ***********************
+// question 1
+// Write a function that takes an integer minutes and converts it to seconds.
+// minuteToSecondConverter(5) âžž 300
+// //step 2
+// 1min = 60sec then xmin * 60sec
+// //step 3 general formula
+// x * 60
+// // step 4 write pseudo code
+// define a function that takes an argument
+// check if the provided x is anumber
+// multiply x by 60 then return the value
+// step 5 translate to JS
 
 
 
